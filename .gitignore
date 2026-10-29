@@ -1,0 +1,60 @@
+# IDE and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Backend build output
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Java / Maven
+target/
+
+# Node / React
+node_modules/
+dist/
+
+# macOS and IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Build files
+target/
+node_modules/
+dist/
+
+# macOS
+.DS_Store
